@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPA without framework</title>
+    <script src="./native-shim.js"></script>
+    <script src="../dist/bundle.js" type="application/javascript"></script>
+</head>
+<body>
+    <app-header></app-header>
+    <div class="content">
+        <div></div>
+        <app-component1 on-route="component-1"></app-component1>
+        <div></div>
+        <app-component2 on-route="component-2"></app-component2>
+    </div>
+    <app-footer></app-footer>
+</body>
+</html>
